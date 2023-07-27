@@ -1,6 +1,9 @@
 name: hello ops girls dev pipeline
 run-name: dev-ci
 
+on:
+  workflow_dispatch:
+
 env:
   AWS_ACCOUNT: "494526681395"
   AWS_REGION: "ap-southeast-1"
